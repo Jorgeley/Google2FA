@@ -1,0 +1,61 @@
+[
+    {
+        "name": "sonata-project/google-authenticator",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sonata-project/GoogleAuthenticator.git",
+            "reference": "d98cb536dec25a6d5043e8051b1a33d8e4cae6c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sonata-project/GoogleAuthenticator/zipball/d98cb536dec25a6d5043e8051b1a33d8e4cae6c1",
+            "reference": "d98cb536dec25a6d5043e8051b1a33d8e4cae6c1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.1"
+        },
+        "time": "2019-05-08T00:00:32+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Google\\Authenticator\\": "src/",
+                "Sonata\\GoogleAuthenticator\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christian Stocker",
+                "email": "me@chregu.tv"
+            },
+            {
+                "name": "Andre DeMarre",
+                "homepage": "http://www.devnetwork.net/viewtopic.php?f=50&t=94989"
+            },
+            {
+                "name": "Thomas Rabaix",
+                "email": "thomas.rabaix@gmail.com"
+            }
+        ],
+        "description": "Library to integrate Google Authenticator into a PHP project",
+        "homepage": "https://github.com/sonata-project/GoogleAuthenticator",
+        "keywords": [
+            "google authenticator"
+        ]
+    }
+]

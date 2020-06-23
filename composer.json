@@ -1,0 +1,13 @@
+{
+    "name": "google2-f-a",
+    "description": "sample project Google2FA.",
+    "authors": [
+        {
+            "name": "Jorgeley",
+            "email": "jorgeley@gmail.com"
+        }
+    ],
+    "require": {
+        "sonata-project/google-authenticator": "dev-master"
+    }
+}
